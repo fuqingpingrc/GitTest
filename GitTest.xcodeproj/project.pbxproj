@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6FAB3E551905247500088E3C /* FirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAB3E541905247500088E3C /* FirstView.m */; };
 		6FDCEED81900DDA200A53A97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDCEED71900DDA200A53A97 /* Foundation.framework */; };
 		6FDCEEDA1900DDA200A53A97 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDCEED91900DDA200A53A97 /* CoreGraphics.framework */; };
 		6FDCEEDC1900DDA200A53A97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDCEEDB1900DDA200A53A97 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6FAB3E531905247500088E3C /* FirstView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstView.h; sourceTree = "<group>"; };
+		6FAB3E541905247500088E3C /* FirstView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstView.m; sourceTree = "<group>"; };
 		6FDCEED41900DDA200A53A97 /* GitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FDCEED71900DDA200A53A97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6FDCEED91900DDA200A53A97 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				6FDCEEE91900DDA200A53A97 /* Main.storyboard */,
 				6FDCEEEC1900DDA200A53A97 /* RcNoCropViewController.h */,
 				6FDCEEED1900DDA200A53A97 /* RcNoCropViewController.m */,
+				6FAB3E531905247500088E3C /* FirstView.h */,
+				6FAB3E541905247500088E3C /* FirstView.m */,
 				6FDCEEEF1900DDA200A53A97 /* Images.xcassets */,
 				6FDCEEDE1900DDA200A53A97 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FDCEEEE1900DDA200A53A97 /* RcNoCropViewController.m in Sources */,
+				6FAB3E551905247500088E3C /* FirstView.m in Sources */,
 				6FDCEEE81900DDA200A53A97 /* RcNoCropAppDelegate.m in Sources */,
 				6FDCEEE41900DDA200A53A97 /* main.m in Sources */,
 			);
@@ -457,6 +463,7 @@
 				6FDCEF081900DDA200A53A97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FDCEF091900DDA200A53A97 /* Build configuration list for PBXNativeTarget "GitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				6FDCEF0B1900DDA200A53A97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
